@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PayRoll Form</title>
+    <link rel="stylesheet" href="../css/payrollform.css">
+    <script src="../js/index.js"></script>
+    <script src="../js/jquery.js"></script>
+</head>
+
+<body>
+    <div class="navbar" id="nav" onclick="window.location='index.html'">
+        <img src="../assets/logo.png" class="logo-icon">
+        <div class="employee-payroll">
+            <span style="color:#82A70C;">EMPLOYEE</span>
+            <span style="color: #42515F;">PAYROLL</span>
+        </div>
+    </div>
+    <div class="container" id="cnt">
+        <h3>Employee Payroll Form</h3>
+        <div class="name">
+            <span>Name</span>
+            <input id="name-input" class="name-input" type="text" required>
+        </div>
+        <div class="avatar-container">
+            <span class="profile-image-txt">Profile Image</span>
+            <div>
+                <input class="profile-input" type="radio" value="../assets/Ellipse 1.png"><span><img
+                        src="../assets/Ellipse 1.png"></span>
+            </div>
+            <div>
+                <input class="profile-input" type="radio" value="../assets/Ellipse -2.png"><span><img
+                        id="profile-input2" src="../assets/Ellipse -2.png"></span>
+            </div>
+            <div>
+                <input class="profile-input" type="radio" value="../assets/Ellipse -1.png"><span><img
+                        id="profile-input3" src="../assets/Ellipse -1.png"></span>
+            </div>
+            <div>
+                <input class="profile-input" type="radio" value="../assets/Ellipse -3.png"><span><img
+                        id="profile-input4" src="../assets/Ellipse -3.png"></span>
+            </div>
+        </div>
+        <div class="gender">
+            <span class="gender-txt">Gender</span>
+            <div>
+                <input class="gender-radio" type="radio" value="male" name="r1"><span>Male</span>
+            </div>
+            <div>
+                <input class="gender-radio" type="radio" value="female" name="r1"><span>Female</span>
+            </div>
+        </div>
+        <div class="department">
+            <span class="department-txt">Department</span>
+            <div>
+                <span><input class="checkbox-input" type="checkbox" value="HR">HR</span>
+                <span><input class="checkbox-input" type="checkbox" value="Sales">Sales</span>
+                <span><input class="checkbox-input" type="checkbox" value="Finance">Finance</span>
+                <span><input class="checkbox-input" type="checkbox" value="Engineer">Engineer</span>
+                <span><input class="checkbox-input" type="checkbox" value="Others">Others</span>
+            </div>
+        </div>
+        <div class="salary">
+            <span class="salary-txt">Salary</span>
+            <span>
+                <select id="salary" required class="salary-select">
+                    <option>Select Salary</option>
+                    <option value="10000">10,000</option>
+                    <option value="20000">20,000</option>
+                    <option value="30000">30,000</option>
+                </select>
+            </span>
+        </div>
+        <div class="start-date">
+            <span class="start-date-txt">Start Date</span>
+            <select id="day-select" required>
+                <option>Day</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+            </select>
+            <select id="month-select">
+                <option>Month</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">12</option>
+            </select>
+            <select id="year-select">
+                <option>Year</option>
+                <option value="2018">2018</option>
+                <option value="2019">2019</option>
+                <option value="2020">2020</option>
+                <option value="2021">2021</option>
+                <option value="2022">2022</option>
+
+            </select>
+        </div>
+        <div class="notes">
+            <span class="notes-txt">Notes</span>
+            <textarea id="textarea-input" required>
+            </textarea>
+        </div>
+        <div class="btn-grp">
+            <button class="cancel-btn" onclick="window.location.href='./index.html'">Cancel</button>
+            <div class="btn-grp1">
+                <button class="submit-btn" onclick="Submit()">Submit</button>
+                <button class="reset-btn" onclick="window.location.reload()">Reset</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
