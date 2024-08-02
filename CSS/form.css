@@ -1,0 +1,348 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background: #F7F7F7 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.navbar {
+    top: 0px;
+    left: 0px;
+    width: full;
+    height: 106px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.logo-icon {
+    position: absolute;
+    top: 35px;
+    left: 188px;
+    width: 50px;
+    height: 47px;
+}
+
+.employee-payroll {
+    position: absolute;
+    top: 32px;
+    left: 246px;
+    width: 127px;
+    height: 52px;
+    text-align: left;
+    font: normal normal bold 22px/25px Montserrat;
+    letter-spacing: 0px;
+    text-transform: capitalize;
+    opacity: 1;
+}
+
+.container {
+    width: 70%;
+    height: 75%;
+    margin-left: 15%;
+    margin-right: 4%;
+    margin-top: 4%;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border: 1px solid #F5F5F5;
+    border-radius: 8px;
+    opacity: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.container>* {
+    margin-left: 5%;
+    margin-bottom: 5%;
+}
+
+
+h3 {
+    margin-left: 0%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    text-align: left;
+    font: normal normal bold 28px/37px Roboto;
+    letter-spacing: 0px;
+    color: #42515F;
+    text-transform: capitalize;
+    opacity: 1;
+}
+
+.name {
+    width: 80%;
+    height: 5%;
+    display: flex;
+    align-items: center;
+}
+
+.name>* {
+    margin-right: 2%;
+}
+
+.name>span {
+    width: 48px;
+    height: 24px;/ text-align: left;
+    font: normal normal normal 18px/24px Roboto;
+    letter-spacing: 0px;
+    color: #42515F;
+    opacity: 1;
+}
+
+.name-input {
+    width: 686px;
+    height: 50px;
+    margin-left: 9%;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #BDBDBD;
+    border-radius: 3px;
+    opacity: 1;
+}
+
+.avatar-container {
+    width: 80%;
+    height: 5%;
+    display: flex;
+    align-items: center;
+}
+
+.profile-image-txt {
+    text-align: left;
+    font: normal normal normal 18px/24px Roboto;
+    letter-spacing: 0px;
+    color: #42515F;
+    opacity: 1;
+}
+
+.profile-input {
+    width: 20px;
+    height: 20px;
+    background: #DEDEDE 0% 0% no-repeat padding-box;
+    border: 1px solid #B4B4B4;
+    opacity: 1;
+}
+
+.avatar-container>div {
+    margin-left: 3%;
+    margin-right: 3%;
+    display: flex;
+    align-items: center;
+}
+
+.gender {
+    display: flex;
+    align-items: center;
+}
+
+.gender-txt {
+    text-align: left;
+    font: normal normal normal 18px/24px Roboto;
+    letter-spacing: 0px;
+    color: #42515F;
+    opacity: 1;
+    margin-right: 66px;
+}
+
+.gender>div {
+    margin-right: 18%;
+    display: flex;
+    align-items: center;
+}
+
+.gender>div>span {
+    text-align: left;
+    font: normal normal normal 18px/24px Roboto;
+    letter-spacing: 0px;
+    color: #42515F;
+    opacity: 1;
+}
+
+.gender-radio {
+    width: 20px;
+    height: 20px;
+    background: #DEDEDE 0% 0% no-repeat padding-box;
+    border: 1px solid #B4B4B4;
+    opacity: 1;
+}
+
+.gender>div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.department-txt {
+    text-align: left;
+    font: normal normal normal 18px/24px Roboto;
+    letter-spacing: 0px;
+    color: #42515F;
+    opacity: 1
+}
+
+.department {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.department>div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 4%;
+}
+
+.department>div>span>input {
+    width: 24px;
+    height: 24px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #BDBDBD;
+    border-radius: 1px;
+    opacity: 1;
+}
+
+.department>div>span {
+    display: flex;
+    margin-left: 2%;
+    margin-right: 14%;
+    font: normal normal normal 18px/24px Roboto;
+    letter-spacing: 0px;
+    color: #42515F;
+    opacity: 1;
+    align-items: center;
+}
+
+.salary {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.salary-txt {
+    text-align: left;
+    font: normal normal normal 18px/24px Roboto;
+    letter-spacing: 0px;
+    color: #42515F;
+    opacity: 1;
+    margin-right: 20%;
+}
+
+.salary-select {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #BDBDBD;
+    border-radius: 3px;
+    opacity: 1;
+    width: 341px;
+    height: 50px;
+    text-align: left;
+    font: normal normal normal 18px/24px Roboto;
+    letter-spacing: 0px;
+    color: #42515F;
+    opacity: 1;
+}
+
+.start-date-txt {
+    text-align: left;
+    font: normal normal normal 18px/24px Roboto;
+    letter-spacing: 0px;
+    color: #42515F;
+    opacity: 1;
+}
+
+.start-date {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.start-date>select {
+    text-align: left;
+    font: normal normal normal 18px/24px Roboto;
+    letter-spacing: 0px;
+    color: #42515F;
+    opacity: 1;
+}
+
+.notes {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 82%;
+}
+
+
+.notes-txt {
+    text-align: left;
+    font: normal normal normal 18px/24px Roboto;
+    letter-spacing: 0px;
+    color: #42515F;
+    opacity: 1;
+}
+
+#year-select,
+#month-select,
+#day-select {
+    width: 163px;
+    height: 50px;
+    text-align: center;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #BDBDBD;
+    border-radius: 3px;
+    opacity: 1;
+}
+
+textarea {
+    width: 600px;
+    height: 90px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #BDBDBD;
+    border-radius: 3px;
+    opacity: 1;
+    box-sizing: border-box;
+    resize: none;
+}
+
+select {
+    border: 1px solid #BDBDBD;
+}
+
+.btn-grp {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    align-items: center;
+}
+
+.reset-btn,
+.cancel-btn,
+.submit-btn {
+    width: 180px;
+    height: 53px;
+    background: #E2E2E2 0% 0% no-repeat padding-box;
+    border: 1px solid #969696;
+    border-radius: 5px;
+    opacity: 1;
+    text-align: center;
+    font: normal normal normal 20px/26px Roboto;
+    letter-spacing: 0px;
+    color: #42515F;
+    opacity: 1;
+}
+
+.btn-grp1 {
+    margin-left: 30%;
+    display: flex;
+}
+
+.btn-grp1>* {
+    margin-left: 5%;
+}
