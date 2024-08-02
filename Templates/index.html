@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <script src="../js/index.js"></script>
+    <script src="../js/jquery.js"></script>
+    <script src="../js/dataFetcher.js"></script>
+    <link rel="stylesheet" href="../css/dashboard.css">
+    
+</head>
+<body>
+    <div class="navbar" onclick="window.location='index.html'">
+        <img src="../assets/logo.png" class="logo-icon">
+        <div class="employee-payroll">
+            <span style="color: #82A70C; font: normal normal bold 22px/25px Montserrat;">EMPLOYEE</span>
+            <span style="color: #42515F; font: normal normal bold 22px/25px Montserrat;">PAYROLL</span>
+        </div>
+    </div>
+    <div class="main-content" id="main">
+        <div class="menu-bar">
+            <div class="employee-details">Employee Details</div>
+            <div class="search-icon-btn">
+                <div class="search-icon-back">
+                    <img class="search-icon" id="search-icon" onclick="search()" src="../assets/ic--round-search.svg">
+                </div>
+                <button class="add-user-btn" onclick="redirect()">+ Add User</button>
+            </div>
+        </div>
+        <table>
+            <tr class="table-header">
+                <th>NAME</th>
+                <th>GENDER</th>
+                <th>DEPARTMENT</th>
+                <th>SALARY</th>
+                <th>START DATE</th>
+                <th>ACTIONS</th>
+            </tr>
+        </table>
+    </div>
+    </div>
+</body>
+
+</html>
